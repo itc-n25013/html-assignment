@@ -55,9 +55,10 @@ nav ul li a:hover {
 
 /* メインビジュアル */
 .hero {
+    margin-top: 70px;
     height: 80vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(11, 14, 20, 1)), 
-                url('https://res.cloudinary.com/cook-becker/image/fetch/q_auto:good,f_auto,w_1920/https://candb.com/site/candb/images/artwork/soldier-on-battlefield_dice.jpg') center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(11, 14, 20, 1)), 
+                url('https://wallpaper.forfun.com/fetch/4d/4d21426b18e4c48f6135e29ab67e3e90.jpeg') center/cover no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -98,7 +99,7 @@ nav ul li a:hover {
 .container {
     max-width: 1100px;
     margin: 0 auto;
-    padding: 60px 20px;
+    padding: 250px 20px;
 }
 
 h2 {
@@ -172,4 +173,7 @@ footer {
     nav ul {
         margin-top: 10px;
     }
+}
+section {
+  scroll-margin-top: 100px;
 }
